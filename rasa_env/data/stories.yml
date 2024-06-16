@@ -1,0 +1,216 @@
+version: '3.0'
+stories:
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: goodbye path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: affirm path
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+- story: deny path
+  steps:
+  - intent: deny
+  - action: utter_deny
+- story: sexual
+  steps:
+  - intent: sexual
+  - action: utter_sexual
+- story: greet and ask name
+  steps:
+  - intent: ask_name
+  - action: utter_ask_name
+- story: inform name
+  steps:
+  - intent: inform_name
+    entities:
+    - name: John
+  - action: utter_thank_name
+- story: Cuts path
+  steps:
+  - intent: Cuts
+  - action: utter_Cuts
+- story: greeting path
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+- story: goodbye path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: Abrasions path
+  steps:
+  - intent: Abrasions
+  - action: utter_Abrasions
+- story: stings path
+  steps:
+  - intent: stings
+  - action: utter_stings
+- story: Splinter path
+  steps:
+  - intent: Splinter
+  - action: utter_Splinter
+- story: Sprains path
+  steps:
+  - intent: Sprains
+  - action: utter_Sprains
+- story: Strains path
+  steps:
+  - intent: Strains
+  - action: utter_Strains
+- story: Fever path
+  steps:
+  - intent: Fever
+  - action: utter_Fever
+- story: Nasal Congestion path
+  steps:
+  - intent: Nasal Congestion
+  - action: utter_Nasal Congestion
+- story: Cough path
+  steps:
+  - intent: Cough
+  - action: utter_Cough
+- story: Sore Throat path
+  steps:
+  - intent: Sore Throat
+  - action: utter_Sore Throat
+- story: Gastrointestinal problems path
+  steps:
+  - intent: Gastrointestinal problems
+  - action: utter_Gastrointestinal problems
+- story: Skin problems path
+  steps:
+  - intent: Skin problems
+  - action: utter_Skin problems
+- story: Abdonominal Pain path
+  steps:
+  - intent: Abdonominal Pain
+  - action: utter_Abdonominal Pain
+- story: Bruises path
+  steps:
+  - intent: Bruises
+  - action: utter_Bruises
+- story: Broken Toe path
+  steps:
+  - intent: Broken Toe
+  - action: utter_Broken Toe
+- story: Choking path
+  steps:
+  - intent: Choking
+  - action: utter_Choking
+- story: Wound path
+  steps:
+  - intent: Wound
+  - action: utter_Wound
+- story: Diarrhea path
+  steps:
+  - intent: Diarrhea
+  - action: utter_Diarrhea
+- story: Frost bite path
+  steps:
+  - intent: Frost bite
+  - action: utter_Frost bite
+- story: Heat Exhaustion path
+  steps:
+  - intent: Heat Exhaustion
+  - action: utter_Heat Exhaustion
+- story: Heat Stroke path
+  steps:
+  - intent: Heat Stroke
+  - action: utter_Heat Stroke
+- story: Insect Bites path
+  steps:
+  - intent: Insect Bites
+  - action: utter_Insect Bites
+- story: nose bleed path
+  steps:
+  - intent: nose bleed
+  - action: utter_nose bleed
+- story: Pulled Muscle path
+  steps:
+  - intent: Pulled Muscle
+  - action: utter_Pulled Muscle
+- story: Rectal bleeding path
+  steps:
+  - intent: Rectal bleeding
+  - action: utter_Rectal bleeding
+- story: Sun Burn path
+  steps:
+  - intent: Sun Burn
+  - action: utter_Sun Burn
+- story: Testicle Pain path
+  steps:
+  - intent: Testicle Pain
+  - action: utter_Testicle Pain
+- story: Vertigo path
+  steps:
+  - intent: Vertigo
+  - action: utter_Vertigo
+- story: Normal Bleeding path
+  steps:
+  - intent: Normal Bleeding
+  - action: utter_Normal Bleeding
+- story: Eye Injury path
+  steps:
+  - intent: Eye Injury
+  - action: utter_Eye Injury
+- story: Chemical Burn path
+  steps:
+  - intent: Chemical Burn
+  - action: utter_Chemical Burn
+- story: Poison path
+  steps:
+  - intent: Poison
+  - action: utter_Poison
+- story: Teeth path
+  steps:
+  - intent: Teeth
+  - action: utter_Teeth
+- story: seizure path
+  steps:
+  - intent: seizure
+  - action: utter_seizure
+- story: Head Injury path
+  steps:
+  - intent: Head Injury
+  - action: utter_Head Injury
+- story: Fainting path
+  steps:
+  - intent: Fainting
+  - action: utter_Fainting
+- story: Headache path
+  steps:
+  - intent: Headache
+  - action: utter_Headache
+- story: Cold path
+  steps:
+  - intent: Cold
+  - action: utter_Cold
+- story: Rash path
+  steps:
+  - intent: Rash
+  - action: utter_Rash
+- story: snake bite path
+  steps:
+  - intent: snake bite
+  - action: utter_snake bite
+- story: animal bite path
+  steps:
+  - intent: animal bite
+  - action: utter_animal bite
+- story: Drowning path
+  steps:
+  - intent: Drowning
+  - action: utter_Drowning
+- story: CPR path
+  steps:
+  - intent: CPR
+  - action: utter_CPR
+- story: Fracture path
+  steps:
+  - intent: Fracture
+  - action: utter_Fracture

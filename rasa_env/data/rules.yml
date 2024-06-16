@@ -1,0 +1,214 @@
+version: '3.0'
+rules:
+- rule: greet rule
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: goodbye rule
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: affirm rule
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+- rule: deny rule
+  steps:
+  - intent: deny
+  - action: utter_deny
+- rule: sexual rule
+  steps:
+  - intent: sexual
+  - action: utter_sexual
+- rule: greet and ask name
+  steps:
+  - intent: ask_name
+  - action: utter_ask_name
+- rule: thank user for name
+  steps:
+  - intent: inform_name
+  - action: utter_thank_name
+- rule: Respond to Cuts
+  steps:
+  - intent: Cuts
+  - action: utter_Cuts
+- rule: Respond to greeting
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+- rule: Respond to goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: Respond to Abrasions
+  steps:
+  - intent: Abrasions
+  - action: utter_Abrasions
+- rule: Respond to stings
+  steps:
+  - intent: stings
+  - action: utter_stings
+- rule: Respond to Splinter
+  steps:
+  - intent: Splinter
+  - action: utter_Splinter
+- rule: Respond to Sprains
+  steps:
+  - intent: Sprains
+  - action: utter_Sprains
+- rule: Respond to Strains
+  steps:
+  - intent: Strains
+  - action: utter_Strains
+- rule: Respond to Fever
+  steps:
+  - intent: Fever
+  - action: utter_Fever
+- rule: Respond to Nasal Congestion
+  steps:
+  - intent: Nasal Congestion
+  - action: utter_Nasal Congestion
+- rule: Respond to Cough
+  steps:
+  - intent: Cough
+  - action: utter_Cough
+- rule: Respond to Sore Throat
+  steps:
+  - intent: Sore Throat
+  - action: utter_Sore Throat
+- rule: Respond to Gastrointestinal problems
+  steps:
+  - intent: Gastrointestinal problems
+  - action: utter_Gastrointestinal problems
+- rule: Respond to Skin problems
+  steps:
+  - intent: Skin problems
+  - action: utter_Skin problems
+- rule: Respond to Abdonominal Pain
+  steps:
+  - intent: Abdonominal Pain
+  - action: utter_Abdonominal Pain
+- rule: Respond to Bruises
+  steps:
+  - intent: Bruises
+  - action: utter_Bruises
+- rule: Respond to Broken Toe
+  steps:
+  - intent: Broken Toe
+  - action: utter_Broken Toe
+- rule: Respond to Choking
+  steps:
+  - intent: Choking
+  - action: utter_Choking
+- rule: Respond to Wound
+  steps:
+  - intent: Wound
+  - action: utter_Wound
+- rule: Respond to Diarrhea
+  steps:
+  - intent: Diarrhea
+  - action: utter_Diarrhea
+- rule: Respond to Frost bite
+  steps:
+  - intent: Frost bite
+  - action: utter_Frost bite
+- rule: Respond to Heat Exhaustion
+  steps:
+  - intent: Heat Exhaustion
+  - action: utter_Heat Exhaustion
+- rule: Respond to Heat Stroke
+  steps:
+  - intent: Heat Stroke
+  - action: utter_Heat Stroke
+- rule: Respond to Insect Bites
+  steps:
+  - intent: Insect Bites
+  - action: utter_Insect Bites
+- rule: Respond to nose bleed
+  steps:
+  - intent: nose bleed
+  - action: utter_nose bleed
+- rule: Respond to Pulled Muscle
+  steps:
+  - intent: Pulled Muscle
+  - action: utter_Pulled Muscle
+- rule: Respond to Rectal bleeding
+  steps:
+  - intent: Rectal bleeding
+  - action: utter_Rectal bleeding
+- rule: Respond to Sun Burn
+  steps:
+  - intent: Sun Burn
+  - action: utter_Sun Burn
+- rule: Respond to Testicle Pain
+  steps:
+  - intent: Testicle Pain
+  - action: utter_Testicle Pain
+- rule: Respond to Vertigo
+  steps:
+  - intent: Vertigo
+  - action: utter_Vertigo
+- rule: Respond to Normal Bleeding
+  steps:
+  - intent: Normal Bleeding
+  - action: utter_Normal Bleeding
+- rule: Respond to Eye Injury
+  steps:
+  - intent: Eye Injury
+  - action: utter_Eye Injury
+- rule: Respond to Chemical Burn
+  steps:
+  - intent: Chemical Burn
+  - action: utter_Chemical Burn
+- rule: Respond to Poison
+  steps:
+  - intent: Poison
+  - action: utter_Poison
+- rule: Respond to Teeth
+  steps:
+  - intent: Teeth
+  - action: utter_Teeth
+- rule: Respond to seizure
+  steps:
+  - intent: seizure
+  - action: utter_seizure
+- rule: Respond to Head Injury
+  steps:
+  - intent: Head Injury
+  - action: utter_Head Injury
+- rule: Respond to Fainting
+  steps:
+  - intent: Fainting
+  - action: utter_Fainting
+- rule: Respond to Headache
+  steps:
+  - intent: Headache
+  - action: utter_Headache
+- rule: Respond to Cold
+  steps:
+  - intent: Cold
+  - action: utter_Cold
+- rule: Respond to Rash
+  steps:
+  - intent: Rash
+  - action: utter_Rash
+- rule: Respond to snake bite
+  steps:
+  - intent: snake bite
+  - action: utter_snake bite
+- rule: Respond to animal bite
+  steps:
+  - intent: animal bite
+  - action: utter_animal bite
+- rule: Respond to Drowning
+  steps:
+  - intent: Drowning
+  - action: utter_Drowning
+- rule: Respond to CPR
+  steps:
+  - intent: CPR
+  - action: utter_CPR
+- rule: Respond to Fracture
+  steps:
+  - intent: Fracture
+  - action: utter_Fracture

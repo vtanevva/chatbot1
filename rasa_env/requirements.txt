@@ -1,0 +1,15 @@
+s3transfer
+rasa-sdk
+python-engineio
+google-auth-oauthlib
+aiohttp-retry
+aiogram
+aio-pika
+twilio
+tensorboard
+python-socketio
+boto3
+tensorflow-intel
+tensorflow
+rasa
+docopt 
